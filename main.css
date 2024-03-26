@@ -20,17 +20,6 @@ body *{
   	margin-right: auto;
 }
 
-.s1{
-	background-color: #F8F8F8;
-	border-bottom:1px solid #c1c1c1;
-	overflow:auto;
-}
-
-.s2{
-	background-color: white;
-	border-bottom:1px solid #c1c1c1;
-	overflow:auto;
-}
 
 .main-container{
 	width: 1200px;
