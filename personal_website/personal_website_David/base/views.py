@@ -10,7 +10,7 @@ from django.template.loader import render_to_string
 # Create your views here.
 
 def home(request):
-	return render(request, 'base/home.html')
+	return render(request, 'base/index.html')
 
 def sendEmail(request):
 
