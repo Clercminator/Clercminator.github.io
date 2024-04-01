@@ -1,44 +1,56 @@
-html, body{
-	padding: 0;
-	margin: 0;
-	scroll-behavior: smooth;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
-body *{
-	transition: 0.3s;
+body * {
+  transition: 0.3s;
 }
 
-#profile-wrapper{
-	text-align: center;
+#profile-wrapper {
+  text-align: center;
 }
 
-#profile-pic{
-	width:270px;
-	height: 270px;
-	border-radius: 100%;
-	margin-left: auto;
-  	margin-right: auto;
+#profile-pic {
+  width: 270px;
+  height: 270px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-.main-container{
-	width: 1200px;
-	margin: 0 auto;
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
-ul{
-	padding: 0;
-    list-style-type: none;
+ul {
+  padding: 0;
+  list-style-type: none;
 }
 
-
-.social-links ul, li{
-	list-style-type:none;
-	display: inline-block;
+.social-links ul,
+li {
+  list-style-type: none;
+  display: inline-block;
 }
 
-.social{
-	width:20px;
-	height: 20px;
+.social {
+  width: 20px;
+  height: 20px;
 }
 
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card.has-transition {
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  transition-duration: 200ms;
+}
+
+.card span {
+  font-size: 1.5em;
+}
