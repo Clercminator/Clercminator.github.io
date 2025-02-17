@@ -45,7 +45,7 @@ export const HeroSection = () => {
             Hi! I&apos;m David, a Data Scientist, BA, Entrepreneur.
           </p>
 
-          <Link href="/CV David - Business - 2024.pdf" target="_blank">
+          <Link href="/David clerc - Finance Analyst - 2025.pdf" target="_blank">
             <MagicButton
               title="Check out my CV"
               icon={<FaLocationArrow />}
