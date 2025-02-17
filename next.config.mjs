@@ -1,7 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-
-  basePath: '/Clercminator.github.io',
   
   webpack(config) {
     
