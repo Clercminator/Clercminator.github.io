@@ -221,7 +221,7 @@ export const socialMedia = [
   {
     id: 4,
     img: "/wha.svg",
-    link: "https://wa.me/5491140897287"
+    link: "https://wa.link/1xsxd9"
   },
   {
     id: 5,
@@ -231,7 +231,12 @@ export const socialMedia = [
   {
     id: 6,
     img: "/cv.png",
-    link: "/CV David - Business - 2024 - Spanish.pdf"
+    link: "/David clerc - Finance Analyst - 2025.pdf"
+  },
+  {
+    id: 7,
+    img: "/cv.png",
+    link: "/David clerc - Analista Financiero - 2025.pdf"
   }
 ];
 
